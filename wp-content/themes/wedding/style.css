@@ -3237,11 +3237,11 @@ footer.entry-meta {
 
 .site-content {
   margin: 0 auto;
-  width: 735px;
+  width: 960px;
 }
 /************************* Latest Workers *********************/
 .latest-works {
-  margin-top: 35px;
+  margin-top: 70px;
 }
 
 .latest-works__header {
@@ -3250,12 +3250,12 @@ footer.entry-meta {
 }
 
 .latest-works .label-item {
-  line-height: 35px;
+  line-height: 70px;
 }
 
 .latest-works--chinese {
   color: #3ba7ff;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: bold;
   height: 70px;
   margin-left: 15px;
@@ -3263,28 +3263,74 @@ footer.entry-meta {
 
 .latest-works--english {
   color: #afa778;
-  font-size: 0.6em;
 }
 
-.more-news {
-  background: url(images/more-news-btn.png) 0px 11px no-repeat;
-  background-size: 100%;
+.more-btn {
+  background: #e2d9d4;
+  border-radius: 15px;
   height: 35px;
-  margin-right: 8px;
-  width: 75px;
+  margin-top: 20px;
+  margin-right: 20px;
+  line-height: 35px;
+  text-align: center;
+  width: 140px;
 }
 
 .latest-works-image {
   border: 2px solid #79afbb;
   height: 500px;
   margin-top: 15px;
-  width: 475px;
+  width: 600px;
 }
 
 .side-menus {
-  border: 1px solid #79afbb;
+  border-bottom: 2px solid #79afbb;
   height: 500px;
   margin-left: 15px;
   margin-top: 15px;
-  width: 245px;
+  width: 345px;
+}
+
+.side-menu-item .menu-icon {
+  width: 150px;
+}
+
+.side-menu-item .menu-icon > img {
+  max-width: 100%;
+}
+
+.side-menu-item .excerpt {
+  height: 110px;
+}
+
+.wed-coop-hot .excerpt {
+  background: #d9eeff;
+}
+
+.show-case-container {
+  margin-top: 20px;
+}
+
+.show-case-icon {
+  height: 75px;
+  width: 100px;
+}
+
+.show-case-icon img {
+  max-width: 100%;
+}
+
+.show-case--chinese {
+  color: #3ba7ff;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 75px;
+  margin-left: 15px;
+}
+
+.show-case__more-btn-container {
+  border-radius: 10px;
+  background: #d9eeff;
+  height: 75px;
+  width: 700px;
 }
